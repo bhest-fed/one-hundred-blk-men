@@ -1,0 +1,44 @@
+.masthead {
+	position: relative;
+
+	&__text-content {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		width: 100%;
+		transform: translateY(-50%);
+	}
+
+	&__headline {
+		font-size: 3.25rem;
+		font-family: 'Roboto Slab';
+		line-height: 1.2;
+		text-transform: uppercase;
+		font-size: 1.1rem;
+
+		@mixin atSmall {
+			font-size: 2rem;
+		}
+
+		@mixin atMedium {
+			font-size: 2.8rem;
+		}
+
+		@mixin atLarge {
+			font-size: 3.25rem;
+		}
+	}
+
+	&__intro-text {
+		max-width: 17.5rem;
+		font-size: .5rem;
+
+		@mixin atMobile320 {
+			font-size: 1rem;
+		}
+	}
+
+	.hour-glass {
+		display: none;
+	}
+}

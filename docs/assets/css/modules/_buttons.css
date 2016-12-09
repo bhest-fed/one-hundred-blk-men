@@ -1,0 +1,43 @@
+.btn {
+	display: inline-block;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding:.75rem  1.2rem;
+	background-color: $color2;
+	text-align: center;
+
+	/*&__text-wrap {
+		text-align: center;
+		position: relative;
+		display: block;
+		top: 50%;
+		transform: translateY(-50%);
+	}*/
+
+	&__text-wrap:hover {
+		color: #333;
+	}
+
+	&--clr3 {
+		background-color: $color3;
+	}
+
+	&--sm {
+		width: 100px;
+		font-size: 1rem;
+	}
+
+	&--med {
+		width: 230px;
+		font-size: 1.125rem;
+	}
+
+	&--lrg {
+		width: 350px;
+	}
+
+	&--rounded {
+		border-radius: 5px;
+	}
+}
